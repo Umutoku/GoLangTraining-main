@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "iPhone",
+      "categoryId": 1,
+      "unitPrice": 5000.12
+    },
+    {
+      "id": 2,
+      "productName": "Samsung",
+      "categoryId": 1,
+      "unitPrice": 3300.12
+    },
+    {
+      "id": 3,
+      "productName": "Vestel",
+      "categoryId": 2,
+      "unitPrice": 4600.12
+    },
+    {
+      "id": 4,
+      "productName": "Asus",
+      "categoryId": 2,
+      "unitPrice": 5600.12
+    },
+    {
+      "id": 5,
+      "productName": "Lenovo",
+      "categoryId": 2,
+      "unitPrice": 25123.56
+    },
+    {
+      "id": 6,
+      "productName": "Dell",
+      "categoryId": 2,
+      "unitPrice": 22323.56
+    },
+    {
+      "id": 7,
+      "productName": "Dell",
+      "categoryId": 2,
+      "unitPrice": 22323.56
+    },
+    {
+      "id": 8,
+      "productName": "Dell",
+      "categoryId": 2,
+      "unitPrice": 22323.56
+    },
+    {
+      "id": 9,
+      "productName": "DellSonif",
+      "categoryId": 2,
+      "unitPrice": 22323.56
+    },
+    {
+      "id": 10,
+      "productName": "DellSonifDeneme",
+      "categoryId": 2,
+      "unitPrice": 22323.56
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Telefon"
+    },
+    {
+      "id": 2,
+      "categoryName": "Bilgisayar"
+    }
+  ]
+}

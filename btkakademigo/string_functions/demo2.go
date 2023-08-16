@@ -20,5 +20,5 @@ func Demo2() {
 
 	fmt.Println(s.Split(isim, "")) // [U m u t]
 
-	fmt.Println()
+	fmt.Println(s.Repeat(isim+" ", 3)) // Umut Umut Umut
 }

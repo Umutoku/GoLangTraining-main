@@ -12,7 +12,9 @@ import (
 	"golesson/loops"
 	"golesson/maps"
 	"golesson/pointers"
+	"golesson/project"
 	"golesson/rangee"
+	"golesson/restful"
 	"golesson/slices"
 	"golesson/string_functions"
 	"golesson/structs"
@@ -71,5 +73,18 @@ func main() {
 
 	string_functions.Demo1()
 	string_functions.Demo2()
+
+	restful.Demo2()
+
+	fmt.Println("")
+	fmt.Println("")
+	fmt.Println("")
+
+	//project.AddProduct()
+	products, _ := project.GetAllProducts()
+
+	for i := 0; i < len(products); i++ {
+		fmt.Println(products[i].ProductName)
+	}
 
 }
